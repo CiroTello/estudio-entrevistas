@@ -1,36 +1,40 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Guía de Estudio Backend
+description: Recursos y apuntes para prepararte en entrevistas de desarrollo backend.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: Preparación completa para entrevistas técnicas
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Empezar con Fundamentos
+      link: /fundamentos/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Ver Preguntas de Entrevista
+      link: /entrevistas/preguntas-comunes/
+      icon: open-book
+    - text: Configuración del Proyecto
+      link: /devops/docker/
+      icon: setting
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Rutas principales de estudio
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Fundamentos de Programación" icon="pencil">
+		Conceptos clave: POO, SOLID, estructuras de datos y patrones de diseño.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Backend y Frameworks" icon="add-document">
+		Java/Spring Boot, JHipster, NestJS, microservicios y buenas prácticas.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Bases de Datos" icon="database">
+		SQL, transacciones, optimización de consultas y ORMs.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="DevOps y Entornos" icon="setting">
+		Docker, docker-compose, CI/CD, despliegues y Kubernetes.
+	</Card>
+	<Card title="Preguntas y Tips de Entrevista" icon="open-book">
+		Preguntas frecuentes, soft skills y ejemplos de respuestas reales.
 	</Card>
 </CardGrid>
